@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dennis Luc's Journal</title>
+        <meta name="author" content="Dennis Luc">
+        <link rel="icon" type="image/jpeg" href="media/dennis-tahoe.jpeg"> 
+    </head>
+    <body>
+        <header>
+            <h1>Dennis Luc's Journal</h1>
+            <h2>Written by Dennis Luc</h2>
+            <nav>
+                <a href="#entry1">Entry 1</a>
+                <a href="#entry2">Entry 2</a>
+                <a href="#entry3">Entry 3</a>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div id="entry1">
+                    <h3>A Productive Day (April 9th, 2021)</h3>
+                    <p>I had a very productive day two days ago, and I was able to 
+                        get a lot of homework done. In particular, I finished:
+                    </p>
+                    <ul>
+                        <li>My <b>MMW 15</b> Section Discussion</li>
+                        <li>My <b>CSE 101</b> Homework</li>
+                        <li>My <b>CSE 151A</b> PA</li>
+                    </ul>
+                    <p>I also had a great workout and meal-prepped for the next couple days!</p>
+                    <video width="20%" controls>
+                        <source src="media/rabbit.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <hr>
+                <div id="entry2">
+                    <h3>A Fun Day (April 10th, 2021)</h3>
+                    <p>I had a super fun day yesterday! Here's what I did in chronological order:</p>
+                    <ol>
+                        <li>I went to the beach with a couple friends and went surfing.</li>
+                        <li>I went out and got some delicious <em>In-n-Out!</em></li>
+                        <li>I ended the day with some <i>League of Legends</i>!</li>
+                    </ol>
+                    <img src="media/in-n-out-burger.jpeg" width="20%">
+                </div>
+                <hr>
+                <div id="entry3">
+                    <h3>A Relaxing Day (April 11th, 2021)</h3>
+                    <p>I had a relaxing, lazy Sunday today. I slept in late, 
+                        and got some delicious breakfast after I woke up. <br>
+                        After, <span>I took a bubble bath</span>, and then I 
+                        ended the day by watching Netflix with my roommates.<br>
+                        Here's some relaxing music I was listening to during my bath:
+                    </p>  
+                        <audio controls>
+                            <source src="media/relaxing-music.mp3" type="audio/mp3">
+                        </audio>   
+                </div>
+                <hr>
+                <details>
+                    <summary>In Conclusion</summary>
+                    <p>I had a great past three days! I had a lot of fun with friends,
+                        and I learned a lot through my coursework and homework!
+                    </p>
+                </details>
+            </section>
+            <section>
+                <form>
+                    <fieldset>
+                        <legend>Create Another Entry</legend>
+                        <label for="title">Title:</label>
+                        <input type="text" id="title"> <br>
+                        <label for="cool">This is a cool entry.</label>
+                        <input type="checkbox" id="cool"><br>
+                        <p>Day of the week:</p>
+                        <input type="radio" id="sunday" name="weekday">
+                        <label for="sunday">Sunday</label>
+                        <input type="radio" id="monday" name="weekday">
+                        <label for="monday">Monday</label>
+                        <input type="radio" id="tuesday" name="weekday">
+                        <label for="tuesday">Tuesday</label>
+                        <input type="radio" id="wednesday" name="weekday">
+                        <label for="wednesday">Wednesday</label>
+                        <input type="radio" id="thursday" name="weekday">
+                        <label for="thursday">Thursday</label>
+                        <input type="radio" id="friday" name="weekday">
+                        <label for="friday">Friday</label>
+                        <input type="radio" id="saturday" name="weekday">
+                        <label for="saturday">Saturday</label><br>
+                        <p>Date of the entry:</p><input type="date"><br>
+                        <br>
+                        <label for="entry">Journal Entry:</label>
+                        <textarea id="entry"></textarea><br>
+                        <label for="browsers">Pick your browser</label>
+                        <input list="browsers">
+                        <datalist id="browsers">
+                            <option>Google Chrome</option>
+                            <option>Safari</option>
+                            <option>Internet Explorer</option>
+                            <option>Firefox</option>
+                        </datalist><br>
+                        <label for="grade">Pick your year in college</label>
+                        <select name="grade" id="grade">
+                            <option value="first">First</option>
+                            <option value="second">Second</option>
+                            <option value="third">Third</option>
+                            <option value="fourth">Fourth</option>
+                        </select><br>
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+
+        </main>
+        <footer>
+            <p><strong>Author: Dennis Luc</strong></p>
+            <p><strong>CSE 110: Lab 2</strong></p>
+        </footer>
+    </body>
+</html>
