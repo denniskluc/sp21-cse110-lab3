@@ -1,0 +1,84 @@
+#entry1 {
+    color: rgb(252, 3, 90);
+    background-color: aqua;
+    display: grid;
+    grid-area: main;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-start: col-start 2;
+}
+
+/*style for the border of the header*/
+header {
+    border-style: solid;
+    border-color: pink;
+    border-width: 0.7cm;
+    border-radius: 8px;
+}
+
+.entry {
+    padding-top: 0.1in;
+    padding-left: 2em;
+    padding-right: 2rem;
+    padding-bottom: 2ch;
+}
+
+div p {
+    color: magenta;
+    font-family: 'Lato';
+}
+
+ol > li {
+    text-decoration: underline;
+}
+
+img ~ h3 {
+    text-align: left;
+}
+
+h3 + ul {
+    padding: 5px 5px 5px 5px;
+}
+
+p.entry {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+* {
+    margin: auto;
+}
+
+a[href*="entry"] {
+    color: #AAA;
+    position: relative;
+}
+
+p:hover {
+    color: green;
+}
+
+h3, h2 {
+    color: rgb(161, 75, 54);
+    position: static;
+}
+
+a:active {
+    margin: 10px 10px 10px 10px;
+}
+
+#entry3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row nowrap;
+}
+
+@media (min-width: 799px) {
+    p {
+        color: red;
+    }
+}
+
+
